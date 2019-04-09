@@ -44,6 +44,10 @@ function ShoppingCart(scenario){
 			console.log(itemCodeCounterKV[key] +"x "+ itemCodeKV[key]);
 		}
 	}
+	if (promo_boolKV["promo_code"] == true)
+	{
+		console.log("I<3AMAYSIM promo applied");
+	}
 	}
 	
 	//cart total
